@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "npx env-cmd nodemon src/index.js"
+  },
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "config": "^3.3.6",
+    "env-cmd": "^10.1.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "mysql2": "^2.3.3-rc.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "name": "den_gouden_appel_backand",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tiebe Deweerdt <tiebe.deweerdt@student.hogent.be>",
+  "license": "MIT"
+}
